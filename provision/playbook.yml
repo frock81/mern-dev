@@ -1,0 +1,4 @@
+---
+- hosts: mern_servers
+  roles:
+    - role: geerlingguy.nodejs

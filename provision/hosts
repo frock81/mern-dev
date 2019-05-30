@@ -1,0 +1,8 @@
+controller15 ansible_connection=local
+mern16       ansible_ssh_host=192.168.4.16 ansible_ssh_private_key_file=/vagrant/insecure_private_key
+
+[mern_servers]
+mern16
+
+[controllers]
+controller15
