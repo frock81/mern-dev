@@ -1,5 +1,8 @@
 # Description: todo command alias to be sourced
 
+# To exec path @see https://stackoverflow.com/questions/4774054/reliable-way-for-a-bash-script-to-get-the-full-path-to-itself
+#SCRIPTPATH="$( cd "$(dirname "$0")" ; pwd -P )"
+
 # @see https://stackoverflow.com/questions/59895/get-the-source-directory-of-a-bash-script-from-within-the-script-itself
 export TODO_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 alias t="todo.sh -d '$TODO_DIR/config'"
