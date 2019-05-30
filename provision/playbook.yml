@@ -2,3 +2,4 @@
 - hosts: mern_servers
   roles:
     - role: geerlingguy.nodejs
+    - role: undergreen.mongodb

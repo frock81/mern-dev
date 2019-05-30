@@ -3,3 +3,4 @@
 *.retry
 geerlingguy.nodejs
 .DS_Store
+undergreen.mongodb
